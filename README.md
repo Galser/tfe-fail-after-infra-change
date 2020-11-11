@@ -18,7 +18,8 @@ Later I deleted the code(Provider + Module + Variables) for provisioning the wor
 
 Again Plan succeeded without any errors but Apply stage failed with the following error. (Commit : https://github.com/RajkumarRajangam/replicate-error/commit/287bbb1eccb6cf1923f486929974e51755b9e308)
 
-Terraform v0.13.5
+```terraform
+Terraform v0.13.5
 Initializing plugins and modules...
 
 Error: Could not load plugin
@@ -35,8 +36,8 @@ requirements and constraints, run "terraform providers".
 
 Failed to instantiate provider "registry.terraform.io/hashicorp/tfe" to obtain
 schema: unknown provider "registry.terraform.io/hashicorp/tfe"
+```
 
-
 
 ## Step 3: Resolution
 
