@@ -45,4 +45,10 @@ The error was fixed by adding a terraform block with required providers i.e, tfe
 
 
 
+# TODO 
+
+- [ ] simplify code
+- [ ] test[ (try to fail)
+- [ [ report bug
+
 >> ... I don't believe that deleteing code in a way above is normal withtin the TF. But let's test. 
